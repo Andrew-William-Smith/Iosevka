@@ -89,7 +89,7 @@ glyph-block Symbol-Punctuation-Small : begin
 					archv
 					g4 ro r [widths.rhs sw]
 					quadControls (0 + TanSlope / 2) (0.5 - TanSlope * r / Descender) 12
-					g4 (-commaOverflow + Descender * TanSlope) Descender [widths.rhs swEnd]
+					g4 (-commaOverflow + Descender * TanSlope) (Descender * 1.75) [widths.rhs swEnd]
 
 	create-glyph 'comma.square' : glyph-proc
 		local df : DivFrame para.diversityF
