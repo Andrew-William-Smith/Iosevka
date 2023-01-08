@@ -127,8 +127,8 @@ glyph-block Symbol-Punctuation-Brackets : begin
 			local r : [fallback ext 0] + [mix SB RightSB DesignParameters.bracketInside]
 
 			include : HBarBottom l r bottom
-			include : HBarTop    l r top
-			include : VBarLeft   l bottom top
+			include : HBarTop    l r (top + 8)
+			include : VBarLeft   l bottom (top + 8)
 
 	do "Bracket Glyphs"
 		create-glyph 'bracketLeft' '[' : Bracket.Shape ParenTop ParenBot
