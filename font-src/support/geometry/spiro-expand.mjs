@@ -200,18 +200,16 @@ class NormalRectifier {
 	arcTo(arc, x, y) {
 		if (this.nKnotsProcessed === 1) {
 			const d = this.gizmo.applyOffsetXY(arc.deriveX0, arc.deriveY0);
-			if (isTangentValid(d)) {
-				this.controlKnots[0].origTangent = d;
-			} else {
-				throw new Error("NaN angle detected.");
+			this.controlKnots[0].origTangent = d;
+			if (!isTangentValid(d)) {
+				//console.warn("NaN angle detected.");
 			}
 		}
 		if (this.controlKnots[this.nKnotsProcessed]) {
 			const d = this.gizmo.applyOffsetXY(arc.deriveX1, arc.deriveY1);
-			if (isTangentValid(d)) {
-				this.controlKnots[this.nKnotsProcessed].origTangent = d;
-			} else {
-				throw new Error("NaN angle detected.");
+			this.controlKnots[this.nKnotsProcessed].origTangent = d;
+			if (!isTangentValid(d)) {
+				//console.warn("NaN angle detected.");
 			}
 		}
 		this.nKnotsProcessed += 1;

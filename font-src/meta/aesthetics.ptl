@@ -14,7 +14,7 @@ export : define [calculateMetrics para] : begin
 	define CAP para.cap
 	define XH para.xHeight
 	define Ascender para.ascender
-	define Descender : fallback para.descender (XH - Ascender)
+	define Descender : fallback para.descender (XH - Ascender * 0.85)
 	define Contrast : fallback para.contrast 1
 	# Key metrics for symbols
 	define SymbolMid para.symbolMid

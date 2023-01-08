@@ -1,0 +1,126 @@
+[buildPlans.iosevka-collegiate]
+family = "Iosevka Collegiate"
+spacing = "normal"
+serifs = "slab"
+no-cv-ss = true
+
+[buildPlans.iosevka-collegiate.variants.design]
+capital-k = "curly-serifed"
+capital-q = "open-swash"
+capital-w = "straight-asymmetric-motion-serifed"
+capital-z = "cursive-with-crossbar"
+f = "tailed"
+g = "double-storey-open"
+i = "serifed-diagonal-tailed"
+k = "diagonal-tailed-cursive-top-left-serifed"
+l = "serifed-diagonal-tailed"
+q = "diagonal-tailed-motion-serifed"
+r = "corner-hooked-serifed"
+t = "diagonal-tailed"
+w = "cursive-motion-serifed"
+z = "cursive"
+eszet = "traditional"
+zero = "slashed"
+three = "flat-top"
+seven = "bend-crossbar-serifed"
+eight = "crossing-asymmetric"
+asterisk = "penta-low"
+number-sign = "slanted"
+ampersand = "closed"
+dollar = "through-cap"
+percent = "rings-segmented-slash"
+question = "smooth"
+
+  [buildPlans.iosevka-collegiate.ligations]
+  inherits = "dlig"
+
+[buildPlans.iosevka-collegiate.variants.italic]
+f = "diagonal-tailed"
+y = "straight-turn-motion-serifed"
+
+[buildPlans.iosevka-collegiate.weights.light]
+shape = 300
+menu = 300
+css = 300
+
+[buildPlans.iosevka-collegiate.weights.regular]
+shape = 400
+menu = 400
+css = 400
+
+[buildPlans.iosevka-collegiate.weights.bold]
+shape = 700
+menu = 700
+css = 700
+
+  [buildPlans.iosevka-collegiate.slopes]
+  upright = "default.upright"
+  italic = "default.italic"
+
+[buildPlans.iosevka-collegiate.metric-override]
+leading = 1050
+parenSize = 850
+
+
+[buildPlans.iosevka-collegiate-etoile]
+family = "Iosevka Collegiate Etoile"
+spacing = "quasi-proportional"
+serifs = "slab"
+no-cv-ss = true
+
+[buildPlans.iosevka-collegiate-etoile.variants.design]
+capital-k = "curly-serifed"
+capital-q = "open-swash"
+capital-w = "straight-asymmetric-motion-serifed"
+capital-z = "cursive-with-crossbar"
+f = "tailed"
+g = "double-storey-open"
+i = "serifed-diagonal-tailed"
+k = "diagonal-tailed-cursive-top-left-serifed"
+l = "serifed-diagonal-tailed"
+q = "diagonal-tailed-motion-serifed"
+r = "corner-hooked-serifed"
+t = "diagonal-tailed"
+w = "cursive-motion-serifed"
+z = "cursive"
+eszet = "traditional"
+zero = "slashed"
+three = "flat-top"
+seven = "bend-crossbar-serifed"
+eight = "crossing-asymmetric"
+asterisk = "penta-low"
+number-sign = "slanted"
+ampersand = "closed"
+dollar = "through-cap"
+percent = "rings-segmented-slash"
+question = "smooth"
+
+  [buildPlans.iosevka-collegiate-etoile.ligations]
+  inherits = "dlig"
+
+[buildPlans.iosevka-collegiate-etoile.variants.italic]
+f = "diagonal-tailed"
+y = "straight-turn-motion-serifed"
+
+[buildPlans.iosevka-collegiate-etoile.weights.light]
+shape = 300
+menu = 300
+css = 300
+
+[buildPlans.iosevka-collegiate-etoile.weights.regular]
+shape = 400
+menu = 400
+css = 400
+
+[buildPlans.iosevka-collegiate-etoile.weights.bold]
+shape = 700
+menu = 700
+css = 700
+
+  [buildPlans.iosevka-collegiate-etoile.slopes]
+  upright = "default.upright"
+  italic = "default.italic"
+
+[buildPlans.iosevka-collegiate-etoile.metric-override]
+leading = 1050
+parenSize = 850
